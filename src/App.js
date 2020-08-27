@@ -1,26 +1,54 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import "./app.scss";
 
-function App() {
+const Header = ({ nav }) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="header">
+      <div className="header__nav" ref={nav}>
+        Icon
+      </div>
+      <div className="header__hero">
+        <h1>Hey, I'm Claudinei Bido</h1>
+        <h2>Software Engineer, Sysadmin and Curious</h2>
+      </div>
     </div>
   );
-}
+};
+
+const Main = () => {
+  return (
+    <div className="main">
+
+    </div>);
+};
+
+const App = () => {
+
+  /*On component mount add eventListener */
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, true);
+  }, []);
+
+  const nav = React.createRef();
+
+  const handleScroll = () => {
+    if (window.scrollY > 680) {
+      window.requestAnimationFrame(() => {
+        nav.current.classList.add("fixed");
+      });
+    } else {
+      window.requestAnimationFrame(() => {
+        nav.current.classList.remove("fixed");
+      });
+    }
+  };
+
+  return (
+    <div className="app">
+      <Header nav={nav} />
+      <Main />
+    </div>
+  );
+};
 
 export default App;
