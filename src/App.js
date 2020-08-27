@@ -13,9 +13,20 @@ const Header = ({ nav }) => {
         </div>
         <div className="header__wrapper__social">
           <span></span>
-          <a target='_blank' rel="noopener noreferrer" href="https://github.com/bidodev"><Github /></a>
-          <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/bidoc/"><Linkedin /></a>
-
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/bidodev"
+          >
+            <Github />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/bidoc/"
+          >
+            <Linkedin />
+          </a>
         </div>
       </div>
       <div className="header__hero">
@@ -26,13 +37,45 @@ const Header = ({ nav }) => {
   );
 };
 
-const Main = () => {
+const About = () => {
   return (
-    <div className="main">
-      <div className="main__heading">
-        {/* icon / numbers */}
+    <div className="about">
+      <div className="heading__secondary">
+        <div className="heading__secondary__number">01.</div>
         <h2>About Me</h2>
       </div>
+    </div>
+  );
+};
+
+const Projects = () => {
+  return (
+    <div className="projects">
+      <div className="heading__secondary">
+        <div className="heading__secondary__number">03.</div>
+        <h2>Projects</h2>
+      </div>
+    </div>
+  );
+};
+
+
+const Contact = () => {
+  return (
+    <div className="contact">
+      <div className="heading__secondary">
+        <div className="heading__secondary__number">04.</div>
+        <h2>contact</h2>
+      </div>
+    </div>
+  );
+};
+
+
+const Footer = () => {
+  return (
+    <div className="footer">
+
     </div>
   );
 };
@@ -60,7 +103,10 @@ const App = () => {
   return (
     <div className="app">
       <Header nav={nav} />
-      <Main />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 };
