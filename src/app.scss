@@ -1,5 +1,5 @@
 /*reset */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap");
 
 *,
 *::before,
@@ -17,57 +17,107 @@ html {
 body {
   font-family: "Nunito Sans", sans-serif;
   line-height: 1.6;
-
 }
 
 .app {
-    display: grid;
-    grid-template-rows: 120vh;
-    grid-template-columns: repeat(12, minmax(min-content, 16rem));
-    color: #fff;
-
+  display: grid;
+  grid-template-rows: 120vh;
+  grid-template-columns: repeat(12, minmax(min-content, 16rem));
+  color: #fff;
 }
 
 /* header */
 .header {
-    grid-column: 1 / -1;
-    grid-row: 1;
-    background-color: #191B1E;
-    
-    &__nav {
-        height: 70.78px;
-        background-color: #191B1E;
-        position: fixed;
-        width: 100%;
-        z-index: 2;
+  grid-column: 1 / -1;
+  grid-row: 1;
+  background-color: #191b1e;
+
+  &__wrapper {
+    //background-color: #191B1E;
+    position: fixed;
+    z-index: 2;
+    //border: 1px solid red;
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__social {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 5;
+      span {
+        height: 8rem;
+        display: flex;
+        border-left: 2px solid #191b1e;
+      }
+      //border: 1px solid red;
+      display: flex;
+      flex-direction: column;
+      width: 20rem;
+
+      a:hover {
+       opacity: 0.5;
+      }
+    }
+  }
+
+  &__nav {
+    background-color: #191b1e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+
+    &__logo {
+      //logo
+    }
+  }
+
+  &__hero {
+    margin-top: 345.56px;
+    margin-left: 147.5px;
+
+    h1 {
+      font-size: 50px;
+      font-weight: normal;
     }
 
-    &__hero {
-        margin-top: 345.56px;
-        margin-left: 147.50px;
-
-        h1{
-            font-size: 50px;
-            font-weight: normal;
-        }
-
-        h2{
-            font-size: 25px;
-            font-weight: normal;
-            text-transform: uppercase;
-        }
+    h2 {
+      font-size: 25px;
+      font-weight: normal;
+      text-transform: uppercase;
     }
+  }
 }
 
 .main {
-    grid-column: 1 / - 1;
-    background-color: #f6f6f6;
-    height: 100vh;
-    clip-path: polygon(0 0, 100% 35%, 100% 100%, 0% 100%);
-    transform: translateY(-45%);
+  grid-column: 1 / -1;
+  background-color: #f6f6f6;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 35%, 100% 100%, 0% 100%);
+  transform: translateY(-45%);
 
+  &__heading {
+    color: #191b1e;
+    height: 20vh;
+    //border: 1px solid red;
+    transform: translateY(45%);
+    display: flex;
+    align-items: center;
+
+    h2 {
+      font-size: 33px;
+      text-transform: uppercase;
+      margin-left: 150px;
+      font-style: normal;
+      letter-spacing: 10px;
+    }
+  }
 }
 
 .fixed {
-    opacity: 0.5;
+  opacity: 0.9;
 }
