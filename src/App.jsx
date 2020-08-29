@@ -4,13 +4,15 @@ import { ReactComponent as Logo } from "./imgs/logo.svg";
 import { ReactComponent as Linkedin } from "./imgs/linkedin.svg";
 import { ReactComponent as Github } from "./imgs/github.svg";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Header = ({ nav }) => {
   return (
     <div className="header">
       <div className="header__wrapper">
         <div className="header__nav" ref={nav}>
           <div className="header__nav__logo">
-            <Logo/>
+            <Logo />
           </div>
           <ul className="header__nav__links">
             <li>About Me</li>
@@ -87,6 +89,7 @@ const Projects = () => {
       <div className="heading__secondary">
         <div className="heading__secondary__number">03.</div>
         <h2>Projects</h2>
+        <div></div>
       </div>
     </div>
   );
@@ -99,6 +102,51 @@ const Contact = () => {
         <div className="heading__secondary__number">04.</div>
         <h2>contact</h2>
       </div>
+      <div className="contact__info">
+        <div className="contact__info__form">
+          <input type="text"></input>
+          <input type="email"></input>
+          <input type="text"></input>
+          <button>Send</button>
+        </div>
+        <div className="contact__info__contact">
+          <div className="contact__info__contact__details">
+            <div>
+              <h2>Phone</h2>
+              <p>+49 1791037171</p>
+            </div>
+            <div>
+              <h2>E-Mail</h2>
+              <p>claudinei.bido@gmail.com</p>
+            </div>
+          </div>
+
+          <div className="contact__info__icons">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/bidoc/"
+          >
+            <FontAwesomeIcon icon={["fab", "linkedin"]} className="icon" />
+            </a>
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/bidodev"
+          >
+            <FontAwesomeIcon icon={["fab", "github"]} className="icon" />
+          </a>
+            
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/claudineibido/"
+          >
+            <FontAwesomeIcon icon={["fab", "facebook"]} className="icon" />
+          </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
@@ -106,8 +154,8 @@ const Contact = () => {
 const Footer = () => {
   return (
     <div className="footer">
-      <p>COPYRIGHT © CLAUDINEIBIDO. ALL RIGHTS RESERVED.  </p>
-      </div>
+      <p>COPYRIGHT © CLAUDINEIBIDO. ALL RIGHTS RESERVED. </p>
+    </div>
   );
 };
 
