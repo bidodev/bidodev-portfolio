@@ -9,7 +9,14 @@ const Header = ({ nav }) => {
     <div className="header">
       <div className="header__wrapper">
         <div className="header__nav" ref={nav}>
-          <Logo className="header__nav__logo" />
+          <div className="header__nav__logo">
+            <Logo/>
+          </div>
+          <ul className="header__nav__links">
+            <li>About Me</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
         </div>
         <div className="header__wrapper__social">
           <span></span>

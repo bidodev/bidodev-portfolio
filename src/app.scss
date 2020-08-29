@@ -95,11 +95,31 @@ body {
     background-color: #191b1e;
     width: 100%;
     display: flex;
-    justify-content: center;
     height: 70px;
+    //border: 1px solid red;
+    position: relative;
 
-    &__logo {
-      //logo
+    &__logo{
+      position: absolute;
+      left: 50%;
+      //border: 1px solid teal;
+    }
+
+    ul {
+      //border: 1px solid green;
+      width: 20vw;
+      margin-left: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+
+      li{
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        color: #fff;
+        cursor: pointer;
+      }
     }
   }
 
