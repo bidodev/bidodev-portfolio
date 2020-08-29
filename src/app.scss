@@ -17,14 +17,40 @@ html {
 body {
   font-family: "Nunito Sans", sans-serif;
   line-height: 1.6;
+  background-color: #191b1e;
 }
 
 .app {
   display: grid;
-  grid-template-rows: 120vh repeat(3, 100vh) 30vh;
+  grid-template-rows: 120vh repeat(3, 90vh) 5vh;
   grid-template-columns: repeat(12, minmax(min-content, 16rem));
   color: #fff;
   //background-color: #fff;
+}
+
+.heading__secondary {
+  margin-left: 150px;
+  margin-top: 150px;
+  color: #191b1e;
+  height: 10vh;
+  //border: 1px solid red;
+  display: flex;
+  align-items: center;
+  width: 30vw;
+
+  &__number {
+      margin-right: 32px;
+      //border: 1px solid red;
+      color: #4B6CC1;
+      font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 33px;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 10px;
+  }
 }
 
 /* header */
@@ -98,8 +124,39 @@ body {
   grid-column: 1 / -1;
   grid-row: 2;
   background-color:#fff;
-  transform: skewY(+10deg) translateY(-18%);
+  transform: skewY(+10deg) translateY(-25%);
+  //border: 1px solid red;
 
+  &__wrapper{
+    color: #191b1e;
+    margin-left: 90.66px;
+    //border: 1px solid red;
+    display: flex;
+    height: auto;
+
+    &__img{
+      width: 373px;
+      height: 411.59px;
+      //border: 1px solid teal;
+      background-color: #C4C4C4;
+
+    }
+
+    &__description{
+      align-self: flex-end;
+      margin-bottom: 1rem;
+      height: 30rem;
+      width: 70%;
+      margin-left: 80px;
+      margin-right: 99px;
+      //border: 1px solid green;
+      font-size: 17px;
+      line-height: 1.8;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
 
   & > * {
     transform: skewY(-10deg);
@@ -112,7 +169,8 @@ body {
     grid-column: 1 / -1;
     background-color: #f5f5f5;
     grid-row: 3;
-    transform: skewY(+10deg) translateY(-18%);
+    transform: skewY(+10deg) translateY(-26%);
+
 
 
     & > * {
@@ -124,8 +182,8 @@ body {
   grid-row: 4;
   grid-column: 1 / - 1;
   color: #191b1e;
-  background-color: red;
-  transform: skewY(+10deg) translateY(-18%);
+  background-color: #fff;
+  transform: skewY(+10deg) translateY(-30%);
 
 
   & > * {
@@ -138,35 +196,13 @@ body {
   grid-row: 5;
   background-color: #191b1e;
   grid-column: 1 / - 1;
-  
-
-}
-
-.fixed {
-  opacity: 0.9;
-}
-
-.heading__secondary {
-  margin-left: 150px;
-  color: #191b1e;
-  height: 20vh;
   //border: 1px solid red;
-  display: flex;
-  align-items: center;
-  width: 30vw;
-
-  &__number {
-      margin-right: 32px;
-      //border: 1px solid red;
-      color: #4B6CC1;
-      font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 33px;
-    text-transform: uppercase;
-    
-    font-style: normal;
-    letter-spacing: 10px;
-  }
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-size: 12px;
 }
+.fixed {
+  opacity: 0.5;
+}
+
+
