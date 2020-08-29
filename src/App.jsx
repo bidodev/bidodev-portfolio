@@ -1,5 +1,12 @@
 import React, { useEffect } from "react";
 import "./app.scss";
+
+/**
+ * components import
+ */
+
+import Projects from './components/projects/projects.component';
+
 import { ReactComponent as Logo } from "./imgs/logo.svg";
 import { ReactComponent as Linkedin } from "./imgs/linkedin.svg";
 import { ReactComponent as Github } from "./imgs/github.svg";
@@ -83,17 +90,6 @@ const About = () => {
   );
 };
 
-const Projects = () => {
-  return (
-    <div className="projects">
-      <div className="heading__secondary">
-        <div className="heading__secondary__number">03.</div>
-        <h2>Projects</h2>
-        <div></div>
-      </div>
-    </div>
-  );
-};
 
 const Contact = () => {
   return (
