@@ -1,108 +1,104 @@
+@import '../../vars';
+
 .contact {
-    grid-row: 4;
-    grid-column: 1 / -1;
-    color: #191b1e;
-    background-color: #fff;
-    transform: skewY(+7deg) translateY(-30%);
-  
-    &__info {
-      //border: 1px solid red;
-      display: flex;
-      margin-left: 9.06rem;
+  grid-row: 4;
+  grid-column: 1 / -1;
+  color: $primary-color;
+  background-color: $white;
+  transform: skewY($angle) translateY(-30%);
+
+  &__info {
+    display: flex;
+    margin-left: 9.06rem;
+    height: 50vh;
+
+    &__form {
+      width: auto;
       height: 50vh;
-      //justify-content:space-between;
-  
-      &__form {
-        //border: 1px solid green;
-        width: auto;
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-  
-        input {
-          height: 8.9rem;
-          width: 59.02rem;
-          font-size: 5rem;
-          border: 2px solid #4b6cc1;
-          border-radius: 5px;
-  
-          &:last-of-type {
-            height: 16rem;
-          }
-        }
-  
-        button {
-          width: 17.48rem;
-          height: 6.06rem;
-          align-self: flex-end;
-          background-color: #4b6cc1;
-          color: #fff;
-          border: 2px solid #191b1e;
-          border-radius: 5px;
-          font-size: 2rem;
-          transition: opacity 0.3s;
-  
-          &:hover {
-            opacity: 0.8;
-            cursor: pointer;
-          }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      input {
+        height: 8.9rem;
+        width: 59.02rem;
+        font-size: 5rem;
+        border: 2px solid $secondary-color;
+        border-radius: 5px;
+
+        &:last-of-type {
+          height: 16rem;
         }
       }
-  
-      &__contact {
-        margin-left: 9.2rem;
-        //border: 1px solid blue;
-        width: 50%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-  
-        &__details {
-          //border: 1px solid red;
-          height: 70%;
-  
-          h2 {
-            text-transform: uppercase;
-            font-size: 3rem;
-            font-weight: normal;
-          }
-  
-          p {
-            font-size: 1.8rem;
-          }
-  
-          div:first-child {
-            //border: 1px solid teal;
-            height: 7.268rem;
-            width: 18.816rem;
-            margin-bottom: 5.2rem;
-          }
-  
-          div:last-child {
-            width: 27.61rem;
-            //border: 1px solid green;
-          }
-        }
-      }
-  
-      &__icons {
-        //border: 1px solid red;
-        .icon {
-          font-size: 2.8rem;
-          color: #4b6cc1;
-          margin-right: 5rem;
-  
-          &:hover {
-            opacity: 0.8;
-            cursor: pointer;
-          }
+
+      button {
+        width: 17.48rem;
+        height: 6.06rem;
+        align-self: flex-end;
+        background-color: $secondary-color;
+        color: $white;
+        border: 2px solid $primary-color;
+        border-radius: 5px;
+        font-size: 2rem;
+        transition: opacity 0.3s;
+
+        &:hover {
+          opacity: 0.8;
+          cursor: pointer;
         }
       }
     }
-  
-    & > * {
-      transform: skewY(-7deg);
+
+    &__contact {
+      margin-left: 9.2rem;
+      width: 50%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &__details {
+        height: 70%;
+
+        h2 {
+          text-transform: uppercase;
+          font-size: 3rem;
+          font-weight: normal;
+        }
+
+        p {
+          font-size: 1.8rem;
+        }
+
+        div:first-child {
+          height: 7.268rem;
+          width: 18.816rem;
+          margin-bottom: 5.2rem;
+        }
+
+        div:last-child {
+          width: 27.61rem;
+        }
+      }
+    }
+
+    &__icons {
+      .icon {
+        font-size: 3rem;
+        color: $secondary-color;
+        margin-right: 5rem;
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0.9;
+
+        &:hover {
+          opacity: 1;
+          cursor: pointer;
+        }
+      }
     }
   }
+
+  & > * {
+    transform: skewY(-$angle);
+  }
+}

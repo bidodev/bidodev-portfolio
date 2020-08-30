@@ -6,7 +6,18 @@
     "extra": "A platform that helps you find a special vacation in line with your taste. Check the filters to sort our destinations according to your wish, whether it is a tropical, snowy, hiking, cycling trip, or just a city tour.",
     "date": "2020.09.10",
     "city": "Berlin",
-    "tecnologies": ["react", "sass", "css", "redux", "html", "javascript", "nodejs", "express", "mongodb", "firebase"],
+    "tecnologies": [
+      "react",
+      "sass",
+      "css",
+      "redux",
+      "html",
+      "javascript",
+      "nodejs",
+      "express",
+      "mongodb",
+      "firebase"
+    ],
     "cover": "dtravel.jpg",
     "link": "https://github.com/bidodev/mern-dtravel"
   },
@@ -36,6 +47,50 @@
   {
     "id": "4",
     "title": "Rafa Projeto",
+    "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
+    "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
+    "date": "2020.09.10",
+    "city": "Berlin",
+    "tecnologies": ["javascript", "sass", "axios", "html"],
+    "cover": "rosetta.jpg",
+    "link": "https://github.com/bidodev/rosetta-application"
+  },
+  {
+    "id": "5",
+    "title": "Holder 5",
+    "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
+    "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
+    "date": "2020.09.10",
+    "city": "Berlin",
+    "tecnologies": ["javascript", "sass", "axios", "html"],
+    "cover": "rosetta.jpg",
+    "link": "https://github.com/bidodev/rosetta-application"
+  },
+  {
+    "id": "6",
+    "title": "Holder 6",
+    "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
+    "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
+    "date": "2020.09.10",
+    "city": "Berlin",
+    "tecnologies": ["javascript", "sass", "axios", "html"],
+    "cover": "rosetta.jpg",
+    "link": "https://github.com/bidodev/rosetta-application"
+  },
+  {
+    "id": "7",
+    "title": "Holder 7",
+    "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
+    "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
+    "date": "2020.09.10",
+    "city": "Berlin",
+    "tecnologies": ["javascript", "sass", "axios", "html"],
+    "cover": "rosetta.jpg",
+    "link": "https://github.com/bidodev/rosetta-application"
+  },
+  {
+    "id": "8",
+    "title": "Holder 8",
     "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
     "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
     "date": "2020.09.10",

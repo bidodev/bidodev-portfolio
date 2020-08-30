@@ -1,7 +1,6 @@
-/*reset */
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap");
-
 @import 'vars';
+
+/*reset */
 *,
 *::before,
 *::after {
@@ -20,34 +19,29 @@ html {
 }
 
 body {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: $font-stack;
   line-height: 1.6;
-  background-color: #191b1e;
+  background-color: $primary-color;
 }
 
 .app {
   display: grid;
   grid-template-rows: 120vh 90vh 100vh 90vh 5vh;
   grid-template-columns: repeat(12, minmax(min-content, 16rem));
-  color: #fff;
-  //background-color: #fff;
 }
 
 .heading__secondary {
-  //border: 1px solid red;
   margin-left: 12rem;
   margin-top: 15rem;
-  color: #191b1e;
+  color: $primary-color;
   height: auto;
-  //border: 1px solid red;
   display: flex;
   align-items: center;
   width: 30vw;
 
   &__number {
     margin-right: 3.2rem;
-    //border: 1px solid red;
-    color: #4b6cc1;
+    color: $secondary-color;
     font-size: 2rem;
   }
 

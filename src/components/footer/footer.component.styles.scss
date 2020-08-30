@@ -1,9 +1,14 @@
+@import '../../vars';
+
 .footer {
-  grid-row: 5;
-  background-color: #191b1e;
+  /* footer position */
   grid-column: 1 / -1;
-  //border: 1px solid red;
-  text-align: center;
-  letter-spacing: 0.4rem;
+  grid-row: 5;
+  background-color: $primary-color;
+
+  /* text rules */
   font-size: 1.3rem;
+  color: $white;
+  text-align: center;
+  letter-spacing: 0.2rem;
 }

@@ -1,21 +1,20 @@
+@import '../../vars';
+
 .about {
     grid-column: 1 / -1;
     grid-row: 2;
-    background-color: #fff;
-    transform: skewY(+7deg) translateY(-25%);
-    //border: 1px solid red;
+    background-color: $white;
+    transform: skewY($angle) translateY(-25%);
   
     &__wrapper {
-      color: #191b1e;
+      color: $primary-color;
       margin-left: 9.06rem; 
-      //border: 1px solid red;
       display: flex;
       height: 50vh;
   
       &__img {
         width: 37.3rem;
         height: 41.16rem;
-        //border: 1px solid teal;
         background-color: #c4c4c4;
       }
   
@@ -26,7 +25,6 @@
         width: 55%;
         margin-left: 8rem;
         margin-right: 9.9rem;
-        //border: 1px solid green;
         font-size: 1.8rem;
         line-height: 1.8;
         display: flex;
@@ -36,7 +34,7 @@
     }
   
     & > * {
-      transform: skewY(-7deg);
+      transform: skewY(-$angle);
     }
   
   }

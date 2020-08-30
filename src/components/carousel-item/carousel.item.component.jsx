@@ -12,7 +12,7 @@ const CarouselItem = ({
   link,
 }) => {
   return (
-    <div>
+    <div className="react-carousel">
       <div className="a">
         <div className="c">
           <div className="tecnologies">

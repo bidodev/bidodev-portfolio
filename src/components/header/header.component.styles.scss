@@ -4,13 +4,11 @@
 .header {
   grid-column: 1 / -1;
   grid-row: 1;
-  background-color: #191b1e;
+  background-color: $primary-color;
 
   &__wrapper {
-    //background-color: #191B1E;
     position: fixed;
     z-index: 1;
-    //border: 1px solid red;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,14 +18,13 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      //z-index: 5;
-      //border: 1px solid red;
+
       span {
         height: 8rem;
         display: flex;
-        border-left: 2px solid #191b1e;
+        border-left: 2px solid $primary-color;
       }
-      //border: 1px solid red;
+
       display: flex;
       flex-direction: column;
       width: 5rem;
@@ -39,17 +36,15 @@
   }
 
   &__nav {
-    background-color: #191b1e;
+    background-color: $primary-color;
     width: 100%;
     display: flex;
     height: 7rem;
-    //border: 1px solid red;
     position: relative;
 
     &__logo {
       position: absolute;
       left: 50%;
-      //border: 1px solid teal;
       width: 5.5rem;
 
       svg {
@@ -59,7 +54,6 @@
     }
 
     ul {
-      //border: 1px solid green;
       width: 20vw;
       margin-left: auto;
       display: flex;
@@ -78,7 +72,7 @@
       li {
         font-size: 1.4rem;
         text-transform: uppercase;
-        color: #fff;
+        color: $white;
         cursor: pointer;
       }
     }
@@ -87,6 +81,7 @@
   &__hero {
     margin-top: 34.55rem;
     margin-left: 14.75rem;
+    color: $white;
 
     h1 {
       font-size: 5rem;
