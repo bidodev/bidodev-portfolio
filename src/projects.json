@@ -4,7 +4,7 @@
     "title": "Dtravel",
     "description": "This project is not intended for production. The reason I built it was to practice building web applications from scratch and get familiarized with the use of MERN stack, Redux and Firebase.",
     "extra": "A platform that helps you find a special vacation in line with your taste. Check the filters to sort our destinations according to your wish, whether it is a tropical, snowy, hiking, cycling trip, or just a city tour.",
-    "date": "2020.09.10",
+    "date": "2020.06.10",
     "city": "Berlin",
     "tecnologies": [
       "react",

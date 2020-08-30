@@ -9,7 +9,6 @@ import CarouselItem from '../carousel-item/carousel.item.component.jsx'
 
 const Projects = () => {
   const PROJECTS_DATA = DATA;
-  console.log(PROJECTS_DATA);
 
   const carouselSettings = {
     showThumbs: false,

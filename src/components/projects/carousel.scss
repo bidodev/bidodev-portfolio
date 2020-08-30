@@ -198,10 +198,6 @@
   border: 0;
 }
 .carousel .slide .legend {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   position: absolute;
   bottom: 40px;
@@ -215,10 +211,6 @@
   font-size: 12px;
   text-align: center;
   opacity: 0.25;
-  -webkit-transition: opacity 0.35s ease-in-out;
-  -moz-transition: opacity 0.35s ease-in-out;
-  -ms-transition: opacity 0.35s ease-in-out;
-  -o-transition: opacity 0.35s ease-in-out;
   transition: opacity 0.35s ease-in-out;
 }
 .carousel .control-dots {
@@ -235,10 +227,6 @@
   }
 }
 .carousel .control-dots .dot {
-  -webkit-transition: opacity 0.25s ease-in;
-  -moz-transition: opacity 0.25s ease-in;
-  -ms-transition: opacity 0.25s ease-in;
-  -o-transition: opacity 0.25s ease-in;
   transition: opacity 0.25s ease-in;
   opacity: 0.3;
   filter: alpha(opacity=30);
