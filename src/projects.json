@@ -2,10 +2,12 @@
   {
     "id": "1",
     "title": "Dtravel",
-    "description": "Lorem ipsum lorem make just for funegs Lorem ipsum lorem make just for funegs Lorem ipsum lorem make just for funegs",
+    "description": "This project is not intended for production. The reason I built it was to practice building web applications from scratch and get familiarized with the use of Redux and Firebase.",
     "date": "2020.09.10",
     "city": "Berlin",
-    "tecnologies": ["React", "SASS"]
+    "tecnologies": ["react", "sass", "express", "nodejs", "javascript", "html", "redux", "mongodb", "firebase", "css"],
+    "cover": "dtravel",
+    "link": "https://github.com/bidodev/mern-dtravel"
   },
   {
     "id": "2",
@@ -13,15 +15,19 @@
     "description": "Project built.. Lorem ipsum lorem make just for funegs Lorem ipsum lorem make just for funegs",
     "date": "2020.09.10",
     "city": "Berlin",
-    "tecnologies": ["React", "SASS"]
+    "tecnologies": ["react", "sass", "html", "javascript", "axios"],
+    "cover": "instagram",
+    "link": "https://github.com/bidodev/react-instagram-lookalike"
   },
 
   {
     "id": "3",
     "title": "Rosetta Bookfinder",
-    "description": "Project built.. Lorem ipsum lorem make just for funegs Lorem ipsum lorem make just for funegs",
+    "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
     "date": "2020.09.10",
     "city": "Berlin",
-    "tecnologies": ["React", "SASS"]
+    "tecnologies": ["javascript", "sass", "axios", "html"],
+    "cover": "rosetta",
+    "link": "https://github.com/bidodev/rosetta-application"
   }
 ]
