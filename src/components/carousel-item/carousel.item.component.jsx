@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const CarouselItem = ({
   id,
@@ -12,32 +12,32 @@ const CarouselItem = ({
   link,
 }) => {
   return (
-    <div className="react-carousel">
-      <div className="a">
-        <div className="c">
-          <div className="tecnologies">
+    <div className="custom__carousel">
+      <div className="custom__carousel__wrapper">
+        <div className="custom__carousel__informations">
+          <div className="custom__carousel__informations__tecnologies">
             {tecnologies.map((tecnologie, i) => (
-              <img key={i} src={`./icons/${tecnologie}.png`} alt={tecnologie} />
+              <img
+                key={i}
+                src={`./icons/${tecnologie}.png`}
+                title={tecnologie}
+                alt={tecnologie}
+              />
             ))}
           </div>
-          <div className="title">
+          <div className="custom__carousel__informations__title">
             <p>{title}</p>
             <p>
               {date} {city}
             </p>
           </div>
-                  <div className="paragraphs">
-                  <p>{extra}</p>
-          <p>{description}</p>
-            </div>
+          <div className="custom__carousel__informations__paragraphs">
+            <p>{extra}</p>
+            <p>{description}</p>
+          </div>
         </div>
-        <div className="d" onClick={() => window.open(`${link}`, "_blank")}>
-          <img
-            key={id}
-            src={`./projects/${cover}`}
-            title={title}
-            alt={cover}
-          />
+        <div className="custom__carousel__project-image" onClick={() => window.open(`${link}`, '_blank')}>
+          <img key={id} src={`./projects/${cover}`} title={title} alt={cover} />
         </div>
       </div>
     </div>
