@@ -3,6 +3,7 @@ import React from "react";
 const CarouselItem = ({
   id,
   title,
+  extra,
   description,
   date,
   city,
@@ -16,11 +17,7 @@ const CarouselItem = ({
         <div className="c">
           <div className="tecnologies">
             {tecnologies.map((tecnologie, i) => (
-              <img
-                key={i}
-                src={`./icons/${tecnologie}.png`}
-                alt={tecnologie}
-              />
+              <img key={i} src={`./icons/${tecnologie}.png`} alt={tecnologie} />
             ))}
           </div>
           <div className="title">
@@ -29,12 +26,15 @@ const CarouselItem = ({
               {date} {city}
             </p>
           </div>
+                  <div className="paragraphs">
+                  <p>{extra}</p>
           <p>{description}</p>
+            </div>
         </div>
-        <div className="d" onClick={() => window.open(`${link}`, '_blank')}>
+        <div className="d" onClick={() => window.open(`${link}`, "_blank")}>
           <img
             key={id}
-            src={`./projects/${cover}.png`}
+            src={`./projects/${cover}`}
             title={title}
             alt={cover}
           />
