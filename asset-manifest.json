@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bidodev-portfolio/static/css/main.9e018081.chunk.css",
+    "main.css": "/bidodev-portfolio/static/css/main.9561163a.chunk.css",
     "main.js": "/bidodev-portfolio/static/js/main.15096c0c.chunk.js",
     "main.js.map": "/bidodev-portfolio/static/js/main.15096c0c.chunk.js.map",
     "runtime-main.js": "/bidodev-portfolio/static/js/runtime-main.8d640e91.js",
@@ -8,9 +8,9 @@
     "static/js/2.fcae360e.chunk.js": "/bidodev-portfolio/static/js/2.fcae360e.chunk.js",
     "static/js/2.fcae360e.chunk.js.map": "/bidodev-portfolio/static/js/2.fcae360e.chunk.js.map",
     "index.html": "/bidodev-portfolio/index.html",
-    "precache-manifest.f079266bd77aae35c99c8fb2a07527d1.js": "/bidodev-portfolio/precache-manifest.f079266bd77aae35c99c8fb2a07527d1.js",
+    "precache-manifest.6413018aa1b7c16fa6df05db8d810324.js": "/bidodev-portfolio/precache-manifest.6413018aa1b7c16fa6df05db8d810324.js",
     "service-worker.js": "/bidodev-portfolio/service-worker.js",
-    "static/css/main.9e018081.chunk.css.map": "/bidodev-portfolio/static/css/main.9e018081.chunk.css.map",
+    "static/css/main.9561163a.chunk.css.map": "/bidodev-portfolio/static/css/main.9561163a.chunk.css.map",
     "static/js/2.fcae360e.chunk.js.LICENSE.txt": "/bidodev-portfolio/static/js/2.fcae360e.chunk.js.LICENSE.txt",
     "static/media/1.95764791.svg": "/bidodev-portfolio/static/media/1.95764791.svg",
     "static/media/2.39d48ab3.svg": "/bidodev-portfolio/static/media/2.39d48ab3.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.8d640e91.js",
     "static/js/2.fcae360e.chunk.js",
-    "static/css/main.9e018081.chunk.css",
+    "static/css/main.9561163a.chunk.css",
     "static/js/main.15096c0c.chunk.js"
   ]
 }

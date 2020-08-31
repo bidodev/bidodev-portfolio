@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bidodev-portfolio/precache-manifest.f079266bd77aae35c99c8fb2a07527d1.js"
+  "/bidodev-portfolio/precache-manifest.6413018aa1b7c16fa6df05db8d810324.js"
 );
 
 self.addEventListener('message', (event) => {
