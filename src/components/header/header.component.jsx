@@ -1,13 +1,13 @@
-import React, { useEffect} from 'react'
-import './header.component.styles.scss'
+import React, { useEffect } from 'react';
+import './header.component.styles.scss';
 
-import { ReactComponent as Logo } from "../../imgs/logo.svg";
-import { ReactComponent as Linkedin } from "../../imgs/linkedin.svg";
-import { ReactComponent as Github } from "../../imgs/github.svg";
+import { ReactComponent as Logo } from '../../imgs/logo.svg';
+import { ReactComponent as Linkedin } from '../../imgs/linkedin.svg';
+import { ReactComponent as Github } from '../../imgs/github.svg';
 
-import { ReactComponent as NumberOne } from "../../imgs/1.svg";
-import { ReactComponent as NumberTwo } from "../../imgs/2.svg";
-import { ReactComponent as NumberThree } from "../../imgs/3.svg";
+import { ReactComponent as NumberOne } from '../../imgs/1.svg';
+import { ReactComponent as NumberTwo } from '../../imgs/2.svg';
+import { ReactComponent as NumberThree } from '../../imgs/3.svg';
 
 const Header = () => {
   const nav = React.createRef();
@@ -36,9 +36,21 @@ const Header = () => {
             <Logo />
           </div>
           <ul className="header__nav__links">
-            <li><NumberOne/> About Me</li>
-            <li><NumberTwo/>Projects</li>
-            <li><NumberThree />Contact</li>
+            <li>
+              <a href="#about">
+                <NumberOne /> About Me
+              </a>
+            </li>
+            <li>
+              <a href="#projects">
+                <NumberTwo /> Projects
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <NumberThree /> Contact
+              </a>
+            </li>
           </ul>
         </div>
         <div className="header__wrapper__social">
@@ -67,4 +79,4 @@ const Header = () => {
   );
 };
 
-export default Header
+export default Header;

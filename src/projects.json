@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Dtravel",
-    "description": "This project is not intended for production. The reason I built it was to practice building web applications from scratch and get familiarized with the use of MERN stack, Redux and Firebase.",
+    "description": "This project is not intended for production. The reason I built it was to practice building web applications from scratch and get familiarized with the use of MERN stack, Redux, and Firebase.",
     "extra": "A platform that helps you find a special vacation in line with your taste. Check the filters to sort our destinations according to your wish, whether it is a tropical, snowy, hiking, cycling trip, or just a city tour.",
     "date": "2020.06.10",
     "city": "Berlin",
@@ -19,51 +19,56 @@
       "firebase"
     ],
     "cover": "dtravel.png",
-    "link": "https://github.com/bidodev/mern-dtravel"
+    "linkLive": "https://github.com/bidodev/mern-dtravel",
+    "linkGitHub": "https://github.com/bidodev/mern-dtravel"
   },
   {
     "id": "2",
     "title": "Instagram Lookalike",
-    "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
-    "description": "Project built.. Lorem ipsum lorem make just for funegs Lorem ipsum lorem make just for funegs",
+    "extra": "This was an exercise from the Development Course, which I attended between 2019 - 2021. This project is just for learning purposes.",
+    "description": "In this project we learned how to use: React Router Dom, Infinite Scroll, Axios, FontAwesome, and Emojis in React. Besides this, I enjoyed a lot of copy this Instagram Page with so many cute puppies!",
     "date": "2020.06.16",
     "city": "Berlin",
     "tecnologies": ["react", "sass", "html", "javascript", "axios"],
-    "cover": "instagram.jpg",
-    "link": "https://github.com/bidodev/react-instagram-lookalike"
+    "cover": "instagram.png",
+    "linkLive": "https://bidodev.github.io/react-instagram-lookalike/",
+    "linkGitHub": "https://github.com/bidodev/react-instagram-lookalike"
   },
 
   {
     "id": "3",
     "title": "Rosetta Bookfinder",
-    "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
-    "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
-    "date": "2020.09.10",
+    "description": "This project uses Google Books API for query the results.",
+    "extra": "This application was built as a Project Group, where the main target was to use Javascript, HTML, and SASS, besides some design patterns as MVC. We also practice on APIS, Promises, Async and Await and DOM Manipulation.",
+    "date": "2020.04.10",
     "city": "Berlin",
     "tecnologies": ["javascript", "sass", "axios", "html", "webpack", "googleapi"],
-    "cover": "rosetta.jpg",
-    "link": "https://github.com/bidodev/rosetta-application"
+    "cover": "rosetta.png",
+    "linkLive": "https://bidodev.github.io/rosetta-application/",
+    "linkGitHub": "https://github.com/bidodev/rosetta-application"
   },
   {
     "id": "4",
     "title": "Youtube Lookalike",
-    "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
-    "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
+    "description": "This project is not intended for production. This project is just for learning purposes and was built during the WEB Development Course.",
+    "extra": "Our task was to create a Youtube Channel lookalike using Grid, Flexbox, SASS and work with some DOM Manipulation for the Dark / White mode.",
     "date": "2020.03.25",
     "city": "Berlin",
     "tecnologies": ["javascript", "sass", "css", "html"],
-    "cover": "rosetta.jpg",
-    "link": "https://github.com/bidodev/channel-layout"
+    "cover": "youtube.png",
+    "linkLive": "https://tube.bido.dev",
+    "linkGitHub": "https://github.com/bidodev/channel-layout"
   },
   {
     "id": "5",
     "title": "Bootstrap Portfolio",
-    "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
-    "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
+    "extra": "We had 2 days to deliver the maximal we could using Bootstrap / HTML and SASS. ",
+    "description": "In this small portfolio we could pratice more on Bootstrap 4 and SASS. In addition we had a small contact with JQuery",
     "date": "2020.03.25",
     "city": "Berlin",
-    "tecnologies": ["javascript", "sass", "css", "html", "jquery", "bootstrap"],
-    "cover": "rosetta.jpg",
-    "link": "https://github.com/bidodev/channel-layout"
+    "tecnologies": ["javascript", "sass", "html", "jquery", "bootstrap"],
+    "cover": "portfolio.png",
+    "linkLive": "https://portfolio.bido.dev/",
+    "linkGitHub": "https://github.com/bidodev/bootstrap-portfolio"
   }
 ]

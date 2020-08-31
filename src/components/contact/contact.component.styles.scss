@@ -5,7 +5,7 @@
   grid-column: 1 / -1;
   color: $primary-color;
   background-color: $white;
-  transform: skewY($angle) translateY(-30%);
+  transform: skewY($angle) translateY(-17%);
 
   &__info {
     display: flex;
@@ -20,7 +20,7 @@
       justify-content: space-between;
 
       input {
-        height: 8.9rem;
+        height: 7.9rem;
         width: 59.02rem;
         font-size: 5rem;
         border: 2px solid $secondary-color;
@@ -37,10 +37,11 @@
         align-self: flex-end;
         background-color: $secondary-color;
         color: $white;
-        border: 2px solid $primary-color;
+        border: none;
+        //border: 2px solid $primary-color;
         border-radius: 5px;
         font-size: 2rem;
-        transition: opacity 0.3s;
+        transition: opacity 0.3s ease-in border 0.3s ease;
 
         &:hover {
           opacity: 0.8;

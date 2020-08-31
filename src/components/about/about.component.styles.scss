@@ -4,18 +4,30 @@
     grid-column: 1 / -1;
     grid-row: 2;
     background-color: $white;
-    transform: skewY($angle) translateY(-25%);
+    transform: skewY($angle) translateY(-15%);
   
     &__wrapper {
       color: $primary-color;
       margin-left: 9.06rem; 
       display: flex;
       height: 50vh;
-  
+
+      @media only screen and (max-width: $bp-small) {
+        flex-direction: column;
+        height: 75%;
+        align-items: center;
+        justify-content:space-between;
+        //border: 1px solid red;
+      }
+
       &__img {
         width: 37.3rem;
         height: 41.16rem;
         background-color: #c4c4c4;
+
+        @media only screen and (max-width: $bp-small) {
+          display: none;
+        }
       }
   
       &__description {
@@ -30,6 +42,12 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+
+        @media only screen and (max-width: $bp-small) {
+          font-size: 2.5rem;
+          height: 80%;
+          width: 100%;
+        }
       }
     }
   

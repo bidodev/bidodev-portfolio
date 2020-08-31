@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
     return (
-      <div className="contact">
+      <div id="contact" className="contact">
         <div className="heading__secondary">
-          <div className="heading__secondary__number">04.</div>
+          <div className="heading__secondary__number">03.</div>
           <h2>contact</h2>
         </div>
         <div className="contact__info">

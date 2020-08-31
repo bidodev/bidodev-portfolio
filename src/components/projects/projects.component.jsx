@@ -18,9 +18,9 @@ const Projects = () => {
   };
 
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <div className="heading__secondary">
-        <div className="heading__secondary__number">03.</div>
+        <div className="heading__secondary__number">02.</div>
         <h2>Projects</h2>
       </div>
       <div className="container">

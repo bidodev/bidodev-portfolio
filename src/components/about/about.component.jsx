@@ -3,7 +3,7 @@ import './about.component.styles.scss';
 
 const About = () => {
   return (
-    <div className="about">
+    <div id ="about" className="about">
       <div className="heading__secondary">
         <div className="heading__secondary__number">01.</div>
         <h2>About Me</h2>
