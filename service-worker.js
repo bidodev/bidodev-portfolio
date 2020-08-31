@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bidodev-portfolio/precache-manifest.e544bd1f6b26d7680fd81a4e8429d3b8.js"
+  "/precache-manifest.8e5031af9e1c6f2d7d0d8b205a173716.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/bidodev-portfolio/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
