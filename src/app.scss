@@ -73,7 +73,7 @@ html {
 
 .app {
   display: grid;
-  grid-template-rows: 120vh 90vh 100vh 90vh 5vh;
+  grid-template-rows: 120vh 100vh 120vh 110vh 5vh;
   grid-template-columns: repeat(12, minmax(min-content, 16rem));
 
   animation: moveInPage 4s ease;

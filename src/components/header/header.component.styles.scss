@@ -57,7 +57,7 @@
     }
 
     ul {
-      width: 20vw;
+      width: 25vw;
       margin-left: auto;
       display: flex;
       justify-content: space-around;
@@ -65,7 +65,7 @@
       list-style: none;
 
       @media only screen and (max-width: $bp-largest) {
-        width: 25vw;
+        width: 30vw;
       }
 
       @media only screen and (max-width: $bp-medium) {
