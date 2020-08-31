@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/bidodev-portfolio/static/css/main.0340d9ad.chunk.css",
+    "main.js": "/bidodev-portfolio/static/js/main.5bd68828.chunk.js",
+    "main.js.map": "/bidodev-portfolio/static/js/main.5bd68828.chunk.js.map",
+    "runtime-main.js": "/bidodev-portfolio/static/js/runtime-main.8d640e91.js",
+    "runtime-main.js.map": "/bidodev-portfolio/static/js/runtime-main.8d640e91.js.map",
+    "static/js/2.938c8561.chunk.js": "/bidodev-portfolio/static/js/2.938c8561.chunk.js",
+    "static/js/2.938c8561.chunk.js.map": "/bidodev-portfolio/static/js/2.938c8561.chunk.js.map",
+    "index.html": "/bidodev-portfolio/index.html",
+    "precache-manifest.d3db68abd64d87b9d6b76d3deca91eb5.js": "/bidodev-portfolio/precache-manifest.d3db68abd64d87b9d6b76d3deca91eb5.js",
+    "service-worker.js": "/bidodev-portfolio/service-worker.js",
+    "static/css/main.0340d9ad.chunk.css.map": "/bidodev-portfolio/static/css/main.0340d9ad.chunk.css.map",
+    "static/js/2.938c8561.chunk.js.LICENSE.txt": "/bidodev-portfolio/static/js/2.938c8561.chunk.js.LICENSE.txt",
+    "static/media/1.95764791.svg": "/bidodev-portfolio/static/media/1.95764791.svg",
+    "static/media/2.39d48ab3.svg": "/bidodev-portfolio/static/media/2.39d48ab3.svg",
+    "static/media/3.290490d9.svg": "/bidodev-portfolio/static/media/3.290490d9.svg",
+    "static/media/github.176880ba.svg": "/bidodev-portfolio/static/media/github.176880ba.svg",
+    "static/media/linkedin.32cfe4c4.svg": "/bidodev-portfolio/static/media/linkedin.32cfe4c4.svg",
+    "static/media/logo.a4d14cdc.svg": "/bidodev-portfolio/static/media/logo.a4d14cdc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d640e91.js",
+    "static/js/2.938c8561.chunk.js",
+    "static/css/main.0340d9ad.chunk.css",
+    "static/js/main.5bd68828.chunk.js"
+  ]
+}
