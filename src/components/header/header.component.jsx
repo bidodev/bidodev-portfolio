@@ -1,11 +1,33 @@
-import React from 'react'
+import React, { useEffect} from 'react'
 import './header.component.styles.scss'
 
 import { ReactComponent as Logo } from "../../imgs/logo.svg";
 import { ReactComponent as Linkedin } from "../../imgs/linkedin.svg";
 import { ReactComponent as Github } from "../../imgs/github.svg";
 
-const Header = ({ nav }) => {
+import { ReactComponent as NumberOne } from "../../imgs/1.svg";
+import { ReactComponent as NumberTwo } from "../../imgs/2.svg";
+import { ReactComponent as NumberThree } from "../../imgs/3.svg";
+
+const Header = () => {
+  const nav = React.createRef();
+
+  /*On component mount add eventListener */
+  useEffect(() => {
+    const handleScroll = () => {
+      const className = 'fixed';
+      const element = nav.current;
+
+      window.requestAnimationFrame(() => {
+        window.scrollY > 10
+          ? element.classList.add(className)
+          : element.classList.remove(className);
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll, true);
+  }, [nav]);
+
   return (
     <div className="header">
       <div className="header__wrapper">
@@ -14,9 +36,9 @@ const Header = ({ nav }) => {
             <Logo />
           </div>
           <ul className="header__nav__links">
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><NumberOne/> About Me</li>
+            <li><NumberTwo/>Projects</li>
+            <li><NumberThree />Contact</li>
           </ul>
         </div>
         <div className="header__wrapper__social">

@@ -18,7 +18,7 @@
       "mongodb",
       "firebase"
     ],
-    "cover": "dtravel.jpg",
+    "cover": "dtravel.png",
     "link": "https://github.com/bidodev/mern-dtravel"
   },
   {
@@ -26,7 +26,7 @@
     "title": "Instagram Lookalike",
     "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
     "description": "Project built.. Lorem ipsum lorem make just for funegs Lorem ipsum lorem make just for funegs",
-    "date": "2020.09.10",
+    "date": "2020.06.16",
     "city": "Berlin",
     "tecnologies": ["react", "sass", "html", "javascript", "axios"],
     "cover": "instagram.jpg",
@@ -40,63 +40,30 @@
     "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
     "date": "2020.09.10",
     "city": "Berlin",
-    "tecnologies": ["javascript", "sass", "axios", "html"],
+    "tecnologies": ["javascript", "sass", "axios", "html", "webpack", "googleapi"],
     "cover": "rosetta.jpg",
     "link": "https://github.com/bidodev/rosetta-application"
   },
   {
     "id": "4",
-    "title": "Rafa Projeto",
+    "title": "Youtube Lookalike",
     "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
     "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
-    "date": "2020.09.10",
+    "date": "2020.03.25",
     "city": "Berlin",
-    "tecnologies": ["javascript", "sass", "axios", "html"],
+    "tecnologies": ["javascript", "sass", "css", "html"],
     "cover": "rosetta.jpg",
-    "link": "https://github.com/bidodev/rosetta-application"
+    "link": "https://github.com/bidodev/channel-layout"
   },
   {
     "id": "5",
-    "title": "Holder 5",
+    "title": "Bootstrap Portfolio",
     "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
     "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
-    "date": "2020.09.10",
+    "date": "2020.03.25",
     "city": "Berlin",
-    "tecnologies": ["javascript", "sass", "axios", "html"],
+    "tecnologies": ["javascript", "sass", "css", "html", "jquery", "bootstrap"],
     "cover": "rosetta.jpg",
-    "link": "https://github.com/bidodev/rosetta-application"
-  },
-  {
-    "id": "6",
-    "title": "Holder 6",
-    "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
-    "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
-    "date": "2020.09.10",
-    "city": "Berlin",
-    "tecnologies": ["javascript", "sass", "axios", "html"],
-    "cover": "rosetta.jpg",
-    "link": "https://github.com/bidodev/rosetta-application"
-  },
-  {
-    "id": "7",
-    "title": "Holder 7",
-    "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
-    "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
-    "date": "2020.09.10",
-    "city": "Berlin",
-    "tecnologies": ["javascript", "sass", "axios", "html"],
-    "cover": "rosetta.jpg",
-    "link": "https://github.com/bidodev/rosetta-application"
-  },
-  {
-    "id": "8",
-    "title": "Holder 8",
-    "extra": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero cumque harum hic ratione ducimus aut incidunt doloremque animi dolorem culpa.",
-    "description": "The application was built using Javascript, HTML and SASS. The mainly goal was the use of APIs and DOM Manipulation.",
-    "date": "2020.09.10",
-    "city": "Berlin",
-    "tecnologies": ["javascript", "sass", "axios", "html"],
-    "cover": "rosetta.jpg",
-    "link": "https://github.com/bidodev/rosetta-application"
+    "link": "https://github.com/bidodev/channel-layout"
   }
 ]
