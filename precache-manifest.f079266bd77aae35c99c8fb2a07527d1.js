@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c2743ac8b6e2aecde7d91467caa6c70",
+    "revision": "e1ecc7f09842242bfe794e5ce06ee8ae",
     "url": "/bidodev-portfolio/index.html"
   },
   {
-    "revision": "fe7fc0a0c6d883a25024",
-    "url": "/bidodev-portfolio/static/css/main.6cb6658d.chunk.css"
+    "revision": "3e1e8ff20f105e1d4451",
+    "url": "/bidodev-portfolio/static/css/main.9e018081.chunk.css"
   },
   {
     "revision": "51a68ff22f928c60451a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bidodev-portfolio/static/js/2.fcae360e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fe7fc0a0c6d883a25024",
-    "url": "/bidodev-portfolio/static/js/main.0f5a7144.chunk.js"
+    "revision": "3e1e8ff20f105e1d4451",
+    "url": "/bidodev-portfolio/static/js/main.15096c0c.chunk.js"
   },
   {
     "revision": "44be6552c82ea9a108fb",
