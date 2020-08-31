@@ -1,6 +1,11 @@
-import React, { useEffect } from 'react';
+import React, {useState } from 'react';
 import './app.scss';
 
+/**
+ * shared components import
+ */
+
+import Spinner from './shared/spinner';
 /**
  * components import
  */
@@ -11,32 +16,26 @@ import Contact from './components/contact/contact.component';
 import Footer from './components/footer/footer.component';
 
 const App = () => {
-  const nav = React.createRef();
+  const [loaderStatus, setLoaderStatus] = useState(true);
 
-  /*On component mount add eventListener */
-  useEffect(() => {
-    const handleScroll = () => {
-      const className = 'fixed';
-      const element = nav.current;
-
-      window.requestAnimationFrame(() => {
-        window.scrollY > 10
-          ? element.classList.add(className)
-          : element.classList.remove(className);
-      });
-    };
-
-    window.addEventListener('scroll', handleScroll, true);
-  }, [nav]);
+  setTimeout(() => {
+    setLoaderStatus(false);
+  }, 4000)
 
   return (
-    <div className="app">
-      <Header nav={nav} />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      {loaderStatus ? (
+        <Spinner />
+      ) : (
+        <div className="app">
+          <Header />
+          <About />
+          <Projects />
+          <Contact />
+          <Footer />
+        </div>
+      )}
+    </>
   );
 };
 

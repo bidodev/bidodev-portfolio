@@ -13,6 +13,7 @@ const Projects = () => {
   const carouselSettings = {
     showThumbs: false,
     showStatus: false,
+    showDots: false,
     useKeyboardArrows: true,
   };
 
