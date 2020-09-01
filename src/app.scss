@@ -77,7 +77,7 @@ html {
   grid-template-rows: 115vh 110vh 120vh 110vh;
   grid-template-columns: repeat(12, minmax(min-content, 16rem));
 
-  animation: moveInPage 5s ease-in-out;
+  animation: moveInPage 3s ease-in-out;
   animation-fill-mode: forwards;
 }
 

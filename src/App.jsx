@@ -20,7 +20,7 @@ const App = () => {
 
   setTimeout(() => {
     setLoaderStatus(false);
-  }, 4000)
+  }, 3500)
 
   return (
     <>

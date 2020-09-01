@@ -11,10 +11,22 @@ const Projects = () => {
   const PROJECTS_DATA = DATA;
 
   const carouselSettings = {
-    showThumbs: false,
+    showArrows: true,
     showStatus: false,
-    showDots: false,
+    showIndicators: true,
+    infiniteLoop: true,
+    showThumbs: false,
     useKeyboardArrows: true,
+    autoPlay: true,
+    stopOnHover: true,
+    swipeable: true,
+    dynamicHeight: false,
+    emulateTouch: true,
+    thumbWidth: 100,
+    selectedItem: 0,
+    interval: 60000,
+    transitionTime: 400,
+    swipeScrollTolerance: 5,
   };
 
   return (

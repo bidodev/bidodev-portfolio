@@ -9,7 +9,8 @@ const About = () => {
         <h2>About Me</h2>
       </div>
       <div className="about__wrapper">
-        <div className="about__wrapper__img"></div>
+        <div className="about__wrapper__img"><img src="./perfil.jpg" alt="profile-img"/>
+        </div>
         <div className="about__wrapper__description">
           <p>
             I am a Software Engineer with experience in Javascript/ES6 / NodeJS

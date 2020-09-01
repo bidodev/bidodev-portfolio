@@ -1,32 +1,17 @@
 @keyframes moveInBottom {
     0% {
         opacity: 0;
-        transform: translateY(3rem);
-    }
-    25% {
-        opacity: 0.4;
-    }
-
-    40% {
-        opacity: 0.8;
-        transform: translateY(-50vh);
-    }
-
-    80% {
-        opacity: 1;
-        position: absolute;
-        left: 50%;
-        top: 6px;
-        transform: scale(1.1);
-    }
-
-    100% {
-        opacity: 0;
-        position: absolute;
-        left: 50%;
-        top: 6px;
         transform: scale(1);
     }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.4;
+        transform: scale(1.0);
+    }
+
 }
 
 .loading {
@@ -42,7 +27,7 @@
   transition: all 2s ease;
 
   svg {
-    animation: moveInBottom 4s ease;
+    animation: moveInBottom 3s ease;
     animation-fill-mode: forwards;
     position: absolute;
     left: 50%;

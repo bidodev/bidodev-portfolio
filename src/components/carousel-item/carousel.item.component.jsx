@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const CarouselItem = ({
   id,
@@ -36,10 +35,9 @@ const CarouselItem = ({
           <div className="custom__carousel__informations__paragraphs">
             <p>{extra}</p>
             <p>{description}</p>
-            <p><FontAwesomeIcon  onClick={() => window.open(`${linkGitHub}`, '_blank')} icon={["fab", "github"]} className="icon" /></p>
-          </div>
 
-         
+          </div>
+          <button onClick={() => window.open(`${linkGitHub}`, '_blank')} >GitHub</button>
         </div>
         <div className="custom__carousel__project-image" onClick={() => window.open(`${linkLive}`, '_blank')}>
           <img key={id} src={`./projects/${cover}`} title={title} alt={cover} />
