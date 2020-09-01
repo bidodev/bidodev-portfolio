@@ -92,10 +92,9 @@
 
   &__hero {
     margin-top: 34.55rem;
-    margin-left: 14.75rem;
-    margin-right: 14.75rem;
     color: $white;
     display: flex;
+    width: 100vw;
     align-items: center;
 
     //border: 1px solid red;
@@ -104,7 +103,8 @@
       //border: 1px solid teal;
       display: flex;
       flex-direction: column;
-      width: 40%;
+      width: calc(100% - 70rem);
+      margin-left: 9.06rem;
 
       h1 {
         font-size: 5rem;
@@ -119,15 +119,14 @@
     }
 
     &__container {
-      //border: 1px solid red;
-      margin-left: auto;
       width: 50rem;
-      height: 50%;
+      //border: 1px solid teal;
       display: inline-block;
-      //transform: translateY(20rem);
+      margin-right: 9.06rem;
+
     }
     .bar {
-      background: #ffffff;
+      background: $white;
       width: 10px;
       height: 100px;
     }
@@ -138,7 +137,7 @@
       float: right;
     }
     .ball {
-      background: #ffffff;
+      background: $white;
       width: 10px;
       height: 10px;
       position: relative;

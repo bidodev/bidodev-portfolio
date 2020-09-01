@@ -13,10 +13,10 @@ const CarouselItem = ({
   linkGitHub,
 }) => {
   return (
-    <div className="custom__carousel">
-      <div className="custom__carousel__wrapper">
-        <div className="custom__carousel__informations">
-          <div className="custom__carousel__informations__tecnologies">
+    <div>
+      <div className="carousel__item">
+        <div className="carousel__item__desc">
+          <div className="carousel__item__desc__tecnologies">
             {tecnologies.map((tecnologie, i) => (
               <img
                 key={i}
@@ -26,21 +26,22 @@ const CarouselItem = ({
               />
             ))}
           </div>
-          <div className="custom__carousel__informations__title">
+          <div className="carousel__item__desc__title">
             <p>{title}</p>
             <p>
               {date} {city}
             </p>
           </div>
-          <div className="custom__carousel__informations__paragraphs">
+          <div className="carousel__item__desc__paragraphs">
             <p>{extra}</p>
             <p>{description}</p>
-
           </div>
+          <div className="carousel__item__desc__cta">
           <button onClick={() => window.open(`${linkGitHub}`, '_blank')} >GitHub</button>
+          </div>
         </div>
-        <div className="custom__carousel__project-image" onClick={() => window.open(`${linkLive}`, '_blank')}>
-          <img key={id} src={`./projects/${cover}`} title={title} alt={cover} />
+        <div className="carousel__item__picture" onClick={() => window.open(`${linkLive}`, '_blank')}>
+           <img key={id} src={`./projects/${cover}`} title={title} alt={cover} />
         </div>
       </div>
     </div>
@@ -48,3 +49,12 @@ const CarouselItem = ({
 };
 
 export default CarouselItem;
+
+/**
+ * 
+
+        <div className="custom__carousel__project-image" >
+          
+        </div>
+      </div>
+ */

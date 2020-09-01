@@ -19,17 +19,37 @@
       flex-direction: column;
       justify-content: space-between;
 
-      input {
-        height: 7.9rem;
+      input, textarea {
+        height: 8.5rem;
         width: 59.02rem;
-        font-size: 5rem;
         border: 2px solid $secondary-color;
         border-radius: 5px;
+        color: $secondary-color;
+        font-size: 2rem;
+        padding: 1.5rem;
 
-        &:last-of-type {
-          height: 14rem;
+        &::placeholder {
+
+          font-size: 2rem;
         }
+
+        &:focus::placeholder {
+          color: transparent;
+        }
+
+        &:focus {
+          box-shadow: 0 1rem 2rem rgba($color: $secondary-color, $alpha: 0.1);
+          border: 2px solid $primary-color;
+          resize: none;
+        }
+
+        
       }
+      .textarea {
+        resize: none;
+        height: 14rem;
+      }
+
 
       button {
         width: 17.48rem;

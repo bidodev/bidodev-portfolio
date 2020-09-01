@@ -10,35 +10,46 @@
     color: #4b4b4b;
   }
 
+  /** carousel container.
+  * It wrapper the whole carousel.
+  */
   .container {
-    //border: 1px solid red;
     height: auto;
-    width: 95%;
+    width: 100vw;
+    height: 70%;
     display: flex;
-    margin-left: 6.06rem;
     background-color: #f6f6f6;
 
-    .custom__carousel {
-      width: 100%;
-      height: 92%;
+    /**
+    * This encapsulate the root div
+    */
+    .carousel-root {
+      outline: none;
       //border: 1px solid red;
+      width: 100%;
+      height: 100%;
+      margin-left: 6.06rem;
+      margin-right: 6.06rem;
+    }
 
-      &__wrapper {
-        //border: 2px solid teal;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        font-size: 5rem;
-        padding: 0 3rem;
-        //background-color:#f6f6f6;
-      }
+    .presentation-mode {
+      //border: 1px solid red;
+      display: flex;
+    }
 
-      &__informations {
+    .carousel__item {
+      //border: 1px solid red;
+      height: 78vh;
+      width: 95%;
+      display: flex;
+      margin: 0 auto;
+
+      /* wrapper for project description and tecnologies images */
+      &__desc {
         //border: 1px solid teal;
-        height: auto;
+
+        //define the size of the project description
         width: 30%;
-        font-size: 1.6rem;
-        background-color: #f6f6f6;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -46,7 +57,7 @@
         &__tecnologies {
           //border: 1px solid red;
           height: 26%;
-          width: 80%;
+          width: 90%;
           background-color: rgba(196, 196, 196, 0.1);
           display: flex;
           justify-content: center;
@@ -54,13 +65,13 @@
           flex-wrap: wrap;
 
           img {
-            margin-right: 1rem;
-            width: 6.2rem;
+            margin-right: 1.5rem;
+            width: 6.5rem;
             height: auto;
             object-fit: cover;
 
             @media only screen and (max-width: $bp-largest) {
-              width: 4.5rem;
+              width: 5rem;
             }
 
             @media only screen and (max-width: $bp-large) {
@@ -69,81 +80,71 @@
           }
         }
 
+        /* tittle and date of the project development */
         &__title {
           //border: 1px solid red;
-          height: 10%;
-          width: 80%;
+          width: 100%;
           text-align: left;
-          margin-top: 1rem;
 
           p {
             color: $secondary-color;
             text-transform: uppercase;
-            height: 40%;
             font-size: 1.6rem;
-            margin-top: 0px;
+            padding-top: 1rem;
           }
-
         }
 
+        /* description paragraphs*/
         &__paragraphs {
           //border: 1px solid red;
-          height: 50%;
-          width: 80%;
-          color: #191b1e;
+          width: 90%;
+          color: $primary-color;
           text-align: left;
-          font-size: 1.8rem;
+          font-size: 2.2rem;
           line-height: 1.6;
           display: flex;
           flex-direction: column;
+          letter-spacing: -0.4px;
           
-          p {
-            margin-top: 1.2rem;
-          }
-          }
 
+          p {
+            margin: 1.2rem 0;
+
+            @media only screen and (max-width: $bp-largest) {
+              font-size: 1.5rem;
+              justify-content: space-between;
+            }
+          }
+        }
+
+        &__cta {
+          width: 100%;
+          //border: 1px solid red;
+          /* cta github */
+          text-align: left;
           button {
-            width: 17.48rem;
-            height: 6.06rem;
             background-color: $secondary-color;
+            padding: 1.2rem 1.7rem;
             color: $white;
             border: none;
             //border: 2px solid $primary-color;
             border-radius: 5px;
-            font-size: 2rem;
+            font-size: 1.8rem;
             transition: opacity 0.3s ease-in border 0.3s ease;
-    
+
             &:hover {
               opacity: 0.8;
               cursor: pointer;
             }
-          //border: 1px solid red;
-          @media only screen and (max-width: $bp-largest) {
-            font-size: 1.4rem;
-          }
-
-        }
-        svg {
-          width: 4rem;
-          height: 4rem;
-          border: none;
-          //border: 2px solid $primary-color;
-          border-radius: 5px;
-          font-size: 2rem;
-          color: $primary-color;
-          transition: opacity 0.3s ease-in border 0.3s ease;
-  
-          &:hover {
-            opacity: 0.8;
-            cursor: pointer;
+            //border: 1px solid red;
+            @media only screen and (max-width: $bp-largest) {
+              font-size: 1.5rem;
+            }
           }
         }
       }
 
-      &__project-image {
-        //background-color: #f6f6f6;
-        //box-shadow: 0 2.5rem 1rem rgba(0, 0, 0, 0.5);
-        height: 100%;
+      &__picture {
         width: 70%;
         transition: filter 0.5s ease-in-out;
         filter: grayscale(100%);

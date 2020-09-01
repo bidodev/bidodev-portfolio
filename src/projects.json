@@ -38,8 +38,8 @@
   {
     "id": "3",
     "title": "Rosetta Bookfinder",
-    "description": "This project uses Google Books API for query the results.",
-    "extra": "This application was built as a Project Group, where the main target was to use Javascript, HTML, and SASS, besides some design patterns as MVC. We also practice on APIS, Promises, Async and Await and DOM Manipulation.",
+    "description": "",
+    "extra": "This application was built as a Project Group, where the main target was to use Javascript, HTML, and SASS, besides some design patterns as MVC. We also practice on APIS, Promises, Async and Await and DOM Manipulation. For this project I used Google Books API for query the results.",
     "date": "2020.04.10",
     "city": "Berlin",
     "tecnologies": ["javascript", "sass", "axios", "html", "webpack", "googleapi"],
